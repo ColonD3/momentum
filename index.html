@@ -144,6 +144,9 @@ h2.caps{font-size:clamp(54px,15.5vw,68px)}
 .coach li{padding:13px 0;border-top:1px solid var(--hair);font-size:17px;line-height:1.4}
 .coach li:last-child{border-bottom:1px solid var(--hair)}
 .coach .arrow{margin-top:18px}
+.coach .creds{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;list-style:none;padding:0;max-width:30em}
+.coach .creds li{padding:8px 11px 7px;border:1px solid var(--hair);font:600 15px/1 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--white)}
+.coach .creds + ul{margin-top:20px}
 .coach-toby .coach-photo{position:absolute;top:0;left:0;right:0;aspect-ratio:1000/1769}
 .coach-toby .coach-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 0}
 .coach-toby .coach-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,12,13,0) 42%,rgba(12,12,13,.9) 68%,#0c0c0d 84%)}
@@ -355,6 +358,10 @@ footer .arrow{color:#fff;margin-top:10px}
     <div class="coach-body">
       <h3 class="caps rv">Toby</h3>
       <p class="role rv" style="--d:.06s">Parkour and flips</p>
+      <ul class="creds rv" style="--d:.09s">
+        <li>Ex gymnast</li>
+        <li>Competitive parkour athlete</li>
+      </ul>
       <ul class="rv" style="--d:.12s">
         <li>Training parkour since January 2024</li>
         <li>Trained on the competition team at Sessions Parkour Gym in San Jose</li>
@@ -369,6 +376,10 @@ footer .arrow{color:#fff;margin-top:10px}
     <div class="coach-body">
       <h3 class="caps rv">Julius</h3>
       <p class="role rv" style="--d:.06s">Kung fu</p>
+      <ul class="creds rv" style="--d:.09s">
+        <li>4th degree black belt</li>
+        <li>Advanced trampoline athlete</li>
+      </ul>
       <ul class="rv" style="--d:.12s">
         <li>Grew up in a kung fu school</li>
         <li>Teaches the kung fu side of every class</li>
